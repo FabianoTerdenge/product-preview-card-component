@@ -11,6 +11,7 @@
     font-style: normal;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 h1 {
     font-family: "Fraunces";
@@ -27,6 +28,8 @@ h2 {
     font-stretch: 200%;
     font-size: 16px;
     color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 .info p {
     font-size: 14px;
@@ -52,7 +55,7 @@ body {
     min-height: 100vh;
 }
 main {
-    width: 40%;
+    width: 60%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -65,7 +68,7 @@ img.perfume {
     border-radius: 10px 0px 0px 10px;
     object-fit: cover;
 }
-.priceing{
+.priceing {
     padding: 20px 0;
     align-items: center;
     display: flex;
@@ -83,6 +86,7 @@ img.perfume {
     font-size: 14px;
 }
 .info {
+    box-sizing: border-box;
     padding: 20px;
     display: grid;
     grid-gap: 10px;
