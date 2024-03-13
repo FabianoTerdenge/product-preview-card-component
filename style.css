@@ -97,12 +97,7 @@ img.perfume {
     height: 14px;
     padding: 0px 10px;
 }
-@media (min-width: 1100px) {
-    picture,
-    .info {
-        width: 50%;
-    }
-}
+
 @media (max-width: 1100px) and (min-width: 650px) {
     main {
         width: 70%;
