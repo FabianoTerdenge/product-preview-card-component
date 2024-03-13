@@ -47,6 +47,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border:none;
+    width: 100%;
 }
 body {
     display: flex;
@@ -55,7 +57,7 @@ body {
     min-height: 100vh;
 }
 main {
-    width: 60%;
+    width: 40%;
     margin: auto;
     display: grid;
     grid-template-rows: 1fr;
@@ -93,8 +95,6 @@ img.perfume {
     grid-gap: 10px;
 }
 .icon {
-    width: 14px;
-    height: 14px;
     padding: 0px 10px;
 }
 
