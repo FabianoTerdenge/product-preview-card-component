@@ -57,8 +57,9 @@ body {
 main {
     width: 60%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     background-color: var(--White);
     border-radius: 10px;
 }
@@ -114,9 +115,9 @@ img.perfume {
 }
 @media (max-width: 500px) {
     main {
-        flex-direction: column;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
         width: 90%;
-        box-sizing: border-box;
     }
     img.perfume {
         width: 100%;
